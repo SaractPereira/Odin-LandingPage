@@ -1,3 +1,102 @@
+.header {
+    display: flex;
+    background-color: rgb(59, 59, 73);
+    justify-content: space-around;
+    align-items: end;
+  }
+
+  .logo_and_name {
+    display: flex;
+    margin-top: 10px; 
+  }
+
+.logo_image {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.shop_name{
+    display: flex;
+    font-size: 50px;
+    font-family: Roboto, arial;
+    color:#ff8800fb;
+}
+
+.navigation_menu {
+    display: flex;
+    color:white;
+    font-family: Roboto, Arial;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.navigation_menu div {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(59, 59, 73);
+    font-family: Roboto, Arial;
+    color: white;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.left_container{
+    flex-direction: column;
+    margin-left: 340px;
+    margin-top: 50px;
+}
+
+.container_title {
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container_text {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container_button{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button {
+    display: flex;
+    background-color: #008cffd7;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: #008cffd7;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.righ_container{
+    display: flex;
+}
+
+.dog_image {
+    display: flex;
+    height: 250px;
+    width: 500px;
+    margin-right: 340px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .objects_title {
     display: flex;
     font-family: Roboto, arial;
@@ -36,7 +135,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    }
+}
 
 .bone_img {
     height: 200px;
@@ -65,6 +164,7 @@
     flex-direction: column;
     text-align: center;
 }
+
 .treat_img{
     height: 200px;
     width: 200px;
@@ -86,6 +186,7 @@
     padding-bottom: 20px;
     padding-right: 300px;
 }
+
 .opinion_author {
     display: flex;
     justify-content: end;
@@ -95,7 +196,6 @@
     font-size: 30px;
     font-weight:bold;
     font-style: italic;
-    
 }
 
 .page_end {
@@ -118,30 +218,30 @@
 .call_sentence{
     font-weight: bold;
     font-size: 30px;
-    margin-left: 20%;
-    margin-top: 5%;
+    margin-left: 200px ;
+    margin-top: 50px ;
 }
 
 .signup_sentence{
     font-size: 20px;
-    margin-left: 20%;
-    margin-bottom: 5%;
+    margin-left:200px ;
+    margin-top: 10px;
+    margin-bottom:50px ;
 }
-
 
 .flex_button {
     display: flex;
     align-items: center;
-    margin-left: 20%;
-
 }
+
 .signup_button {
-    background-color: #008cffd7;  
+    background-color:#008cffd7; 
     border-color: white;
     border-radius:5px;
     color:white;
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-   
+    border-style:solid;
+    margin-left: 150px;
     }
